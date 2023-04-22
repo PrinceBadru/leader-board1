@@ -1,5 +1,3 @@
-# AWESOME BOOK PROJECT
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -22,7 +20,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [TO DO LIST] <a name="about-project"></a>
+# 📖 [LEADER-BOARD] <a name="about-project"></a>
 
 **[LEADER-BOARD]** 
 This is a good application that grants users the ability to save list of activites/task they intend doing. 
@@ -47,7 +45,7 @@ This is a good application that grants users the ability to save list of activit
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://princebadru.github.io/To-do-list/)
+- not available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,12 +66,12 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-- https://princebadru.github.io/To-do-list/
-- cd to do list
+- https://github.com/PrinceBadru/leader-board1/tree/leader1
+- cd to leader-board
 ### Install
 
 Install this project with:
-- cd to-do-list-project
+- cd to leaderboard
 - Double click on the index.html file
 
 ### Usage
