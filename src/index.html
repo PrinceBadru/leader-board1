@@ -6,30 +6,32 @@
     <title>Wbpack Exercise</title>
 </head>
 <body>
+  <main id="lb-main">
     <h1>Leaderboard</h1>
-    <div class="board">
-        <div class="rec-scores">
-            <div class="scores1">
-                <div class="top1">
-                    <h2>Recent Scores</h2>
-                    <button class="refreshed">Refresh</button>
-                </div>
-                <div class="bottom1">
-                    <ul class="scorelist">
-                        
-                    </ul>
 
-                </div>
-            </div>
+    <div class="structure1">
+      <section class="scoressection">
+        <div class="recent-scores">
+          <h2>Recent Scores</h2>
+          <button type="submit" id="refresh">Refresh</button>
         </div>
-        <div class="addscores1">
-            <div class="adding">
-                <h2>Add your score</h2><br><br>
-                <input class="name" type="text" placeholder="name"><br><br>
-                <input class="score" type="text" placeholder="score"><br><br>
-                <button class="add">Submit</button>
-            </div>
-        </div>
+
+        
+          <ul id="table">
+            
+          </ul>
+      </section>
+
+      <section id="form-section">
+        <h2>Add Your Score</h2>
+
+        <form id="form">
+          <input type="text" placeholder=" name" id="name">
+          <input type="number" placeholder=" score" id="score">
+          <span id="error-mesg">Fill Both Fields!</span>
+          <button type="submit" id="btn">Submit</button>
+        </form>
+      </section>
     </div>
 </body>
 </html>
