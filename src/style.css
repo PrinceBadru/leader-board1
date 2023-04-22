@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 2.5;
-  background-color: #eb8989;
+  line-height: 1.5;
+  background-color: #f4f4f4;
   color: #333;
 }
 
@@ -21,7 +21,7 @@ h2 {
 
 button {
   padding: 6px 15px;
-  box-shadow: 3px 3px 2px 1px #913838;
+  box-shadow: 3px 3px 2px 1px #333;
   transition: 300ms ease-in-out;
   cursor: pointer;
 }
@@ -29,12 +29,12 @@ button {
 button:hover {
   background-color: #333;
   color: #eee;
-  transform: scale(1.98);
+  transform: scale(0.98);
 }
 
 #lb-main {
-  height: 96%;
-  width: 75%;
+  height: 100%;
+  width: 80%;
   margin: 50px auto;
   text-align: center;
 }
@@ -55,7 +55,7 @@ button:hover {
   margin: 40px 0;
   padding: 0;
   list-style: none;
-  border: 2px solid rgb(159, 94, 94);
+  border: 2px solid rgb(82, 76, 76);
 }
 
 #table li {
@@ -64,7 +64,7 @@ button:hover {
 }
 
 #table li:nth-child(even) {
-  background-color: rgb(249, 246, 246);
+  background-color: lightgray;
 }
 
 #form-section h2 {
@@ -89,29 +89,29 @@ input {
 
 #error-msg {
   color: rgb(228, 28, 28);
-  font-size: 12px;
-  font-weight: 400;
-  font-style: oblique;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
   transition: all ease-in-out;
   display: none;
 }
 
-#form-section button {
+#formsection button {
   align-self: flex-end;
-  margin-top: 6px;
+  margin-top: 5px;
 }
 
 @media all and (min-width: 768px) {
   h1 {
     text-align: start;
-    font-size: 54px;
+    font-size: 50px;
   }
 
   .structure {
-    margin-top: 62px;
+    margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 18px;
+    gap: 20px;
   }
 
   #form {
@@ -120,10 +120,10 @@ input {
   }
 
   input {
-    padding: 12px;
+    padding: 10px;
   }
 
   .recent-scores {
-    gap: 22px;
+    gap: 20px;
   }
 }
