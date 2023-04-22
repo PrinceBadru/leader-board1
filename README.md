@@ -1,4 +1,3 @@
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -21,35 +20,34 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 [LEADER-BOARD] <a name="about-project"></a>
 
-# 📖 [Leaderboard] <a name="about-project"></a>
-
-
-**Todolist** is a project which displays the name and scores of the players.
+**[LEADER-BOARD]** 
+This is a good application that grants users the ability to save list of activites/task they intend doing. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
-    .Webhint
-    .html
-    .javascript
-    .Webpack
+- HTML
+- CSS
+- Javascript
+- Modules
 
 ### Tech Stack <a name="tech-stack"></a>
 
 ### Key Features <a name="key-features"></a>
 
-> - **[Linters]**
-  > A linter is a tool that analyzes your source code to flag programming errors, bugs, stylistic errors, and suspicious constructs
-> - **[.gitignore]**
-  > Specifies intentionally untracked files to ignore
-  **[Local Storage]**
-  > A feature that allows you to store data on the client-side
-<p align="right">(<a href="#readme-top">back to top</a>)</p>  
+- **[Add_buttons_and_functionallity]**
+- **[Remove_Button_and_functionallity]**
+- **[ES6_Modules]**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- GETTING STARTED -->
+
+- not available
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -57,53 +55,51 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: have basic knowledge of html, css and javascript.
+In order to run this project you need:
+  - Code Editor  
+  - Modern web browser 
+  - linters 
+  - Module
 
+### Setup
+
+Clone this repository to your desired folder:
+- https://github.com/PrinceBadru/leader-board1/tree/leader1
+- cd to leader-board
 ### Install
 
-Install this project with: vscode, eslint, node_js
+Install this project with:
+- cd to leaderboard
+- Double click on the index.html file
 
 ### Usage
 
-- open your local terminal
-- run git clone https://github.com/sam2if/Leaderboard.git
-- After Cloning this repo to your local machine
-- Open the `index.html` in your browser
-- Open with Live Server
+To run the project, execute the following command:
+
+
 
 ### Run tests
 
-To track linter errors locally follow these steps:  
+To run tests, run the following command:
 
-Download all the dependencies run:
-```
-npm install
-```
-Track HTML linter errors run:
-```
-npx hint .
-```
-Track CSS linter errors run:
-```
-npx stylelint "**/*.{css,scss}"
-```
-Track JavaScript linter errors run:
-```
-npx eslint .
-```
 ### Deployment
-You can deploy this project using:
-GitHub pages
 
-<!-- AUTHORS -->
+You can deploy this project using:
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
 
-- GitHub: [samuel_lemma](https://github.com/sam2if)
-- Twitter: [samuel_lemma](https://twitter.com/samuellemma3733)
-- LinkedIn: [samuel_lemma](https://www.linkedin.com/in/samuel-lemma-7479b1214/)
+👤 **BADRUNDAWULA**
+
+- GitHub: [@githubhandle](https://github.com/PrinceBadru)
+- Twitter: [@twitterhandle](https://twitter.com/BadruNdawula)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/badru-ndawula-930b7b217/)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,8 +107,8 @@ GitHub pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **I will modify the style.css with more interesting background and styling**
-- [ ] **I will add animation in to javascript code to add some function to buttons**
+- [ ] **[Beautify_home_page_using_CSS]**
+- [ ] **[Add_Contact]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +126,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give a star!
+
+If you like this project please give ratings...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,13 +135,15 @@ If you like this project give a star!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-We would like to thank Microverse for giving us a chance to practice on some real world projects and the code reviewers for taking time to do the work. 
+I would like to thank to microverse .....
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

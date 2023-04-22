@@ -1,23 +1,26 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: bisque;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background-color: #c58888;
+  color: #160d0d;
 }
 
-.board1 {
-  display: flex;
-  justify-content: space-around;
+h1 {
+  font-size: 38px;
 }
 
-.scores1 {
-  display: block;
+h2 {
+  font-size: 25px;
 }
 
 button {
-  padding: 6px 15px;
+  padding: 7px 16px;
   box-shadow: 3px 3px 2px 1px #333;
   transition: 300ms ease-in-out;
   cursor: pointer;
@@ -26,33 +29,33 @@ button {
 button:hover {
   background-color: #333;
   color: #eee;
-  transform: scale(0.98);
+  transform: scale(1.0);
 }
 
 #lb-main {
   height: 100%;
-  width: 80%;
+  width: 82%;
   margin: 50px auto;
   text-align: center;
 }
 
 .structure {
-  margin-top: 20px;
+  margin-top: 22px;
 }
 
 .recent-scores {
   display: flex;
-  gap: 10px;
+  gap: 11px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
 }
 
 #table {
-  margin: 40px 0;
+  margin: 41px 0;
   padding: 0;
   list-style: none;
-  border: 2px solid rgb(82, 76, 76);
+  border: 2px solid rgb(82, 68, 68);
 }
 
 #table li {
@@ -72,7 +75,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: 80%;
+  width: 78%;
   margin: 0 auto;
 }
 
@@ -80,22 +83,22 @@ input {
   padding: 7px 10px;
   border-radius: 5px;
   outline: none;
-  border: 1px solid #333;
+  border: 2px solid #333;
   font-size: 17px;
 }
 
 #error-msg {
-  color: rgb(228, 28, 28);
-  font-size: 14px;
-  font-weight: 500;
+  color: rgb(195, 125, 125);
+  font-size: 18px;
+  font-weight: 700;
   font-style: italic;
   transition: all ease-in-out;
   display: none;
 }
 
-#formsection button {
+#form-section button {
   align-self: flex-end;
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 @media all and (min-width: 768px) {

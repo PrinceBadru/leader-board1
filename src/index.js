@@ -1,5 +1,8 @@
 import './style.css';
-import { added } from './module/add.js';
+import postScores from './postScores.js';
+import getScores from './getScores.js';
+import showScores from './showScores.js';
+import showError from './showError.js';
 
 const refresh = document.getElementById('refresh');
 const form = document.getElementById('form');
