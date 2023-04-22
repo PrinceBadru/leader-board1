@@ -91,7 +91,7 @@ input {
   color: rgb(228, 28, 28);
   font-size: 12px;
   font-weight: 400;
-  font-style: sans-serif;
+  font-style: oblique;
   transition: all ease-in-out;
   display: none;
 }
@@ -124,6 +124,6 @@ input {
   }
 
   .recent-scores {
-    gap: 22spx;
+    gap: 22px;
   }
 }
