@@ -1,39 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
-<script defer src="main.js"></script></head>
-<body>
-    <h1>Leaderboard</h1>
-    <div class="board1">
-        <div class="rec-scores">
-            <div class="scores1">
-                <div class="top1">
-                    <h2>Recent Scores</h2>
-                    <button class="refreshed">Refresh</button>
-                </div>
-                <div class="bottom1">
-                    <ul class="scorelist">
-                        
-                    </ul>
 
-<<<<<<< Updated upstream
-                </div>
-            </div>
-        </div>
-        <div class="addscores1">
-            <div class="adding">
-                <h2>Add your score</h2><br><br>
-                <input class="name" type="text" placeholder="your name"><br><br>
-                <input class="score" type="text" placeholder="your score"><br><br>
-                <button class="add">Submit</button>
-            </div>
-        </div>
-=======
-    <div class="structure">
-      <section class="scores-section">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
+<script defer src="main.js"></script></head>
+
+<body>
+  <main id="lb-main">
+    <h1>Leaderboard</h1>
+
+    <div class="structure1">
+      <section class="scoressection">
         <div class="recent-scores">
           <h2>Recent Scores</h2>
           <button type="submit" id="refresh">Refresh</button>
@@ -51,11 +30,12 @@
         <form id="form">
           <input type="text" placeholder="Your name" id="name">
           <input type="number" placeholder="Your score" id="score">
-          <span id="error-msg">Kindly Complete Both Fields!</span>
+          <span id="error-mesg">Fill Both Fields!</span>
           <button type="submit" id="btn">Submit</button>
         </form>
       </section>
->>>>>>> Stashed changes
     </div>
+  </main>
 </body>
+
 </html>
