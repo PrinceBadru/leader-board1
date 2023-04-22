@@ -1,3 +1,4 @@
+const url = 'https://your-api-url.com/game/scores';
 const nameInput = document.getElementById('name');
 const scoreInput = document.getElementById('score');
 
