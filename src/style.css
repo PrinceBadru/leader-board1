@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background-color: #c58888;
+  color: #160d0d;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+button {
+  padding: 7px 16px;
+  box-shadow: 3px 3px 2px 1px #333;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+  color: #eee;
+  transform: scale(1);
+}
+
+#lb-main {
+  height: 100%;
+  width: 82%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.structure {
+  margin-top: 22px;
+}
+
+.recent-scores {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#table {
+  margin: 41px 0;
+  padding: 0;
+  list-style: none;
+  border: 2px solid rgb(82, 68, 68);
+}
+
+#table li {
+  text-align: start;
+  padding: 8px 10px;
+}
+
+#table li:nth-child(even) {
+  background-color: lightgray;
+}
+
+#form-section h2 {
+  margin-bottom: 40px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 78%;
+  margin: 0 auto;
+}
+
+input {
+  padding: 7px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #333;
+  font-size: 17px;
+}
+
+#error-msg {
+  color: rgb(195, 125, 125);
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+  transition: all ease-in-out;
+  display: none;
+}
+
+#form-section button {
+  align-self: flex-end;
+  margin-top: 8px;
+}
+
+@media all and (min-width: 768px) {
+  h1 {
+    text-align: start;
+    font-size: 50px;
+  }
+
+  .structure {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  #form {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  input {
+    padding: 10px;
+  }
+
+  .recent-scores {
+    gap: 20px;
+  }
+}
