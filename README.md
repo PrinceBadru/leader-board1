@@ -1,4 +1,4 @@
-# AWESOME BOOK PROJECT
+# LEADER-BOARD
 
 # 📗 Table of Contents
 
@@ -47,7 +47,7 @@ This is a good application that grants users the ability to save list of activit
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Not available]()
+- not available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
